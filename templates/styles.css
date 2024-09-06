@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: red;
+}
+
+header {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.blog, .cancer-types, .about-content, .treatment-options {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cancer-types, .treatment-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.type-card, .treatment-card {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #e7f0fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.type-card h3, .treatment-card h3 {
+    color: #0066cc;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0066cc;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
